@@ -19,7 +19,7 @@ def main():
                        idade = int(input("Qual a sua idade? "))
                        email = input("Qual o seu e-mail?")
                        cidade = input("Em qual cidade mora? ")
-                       profissao = ("Qual a sua profissao? ")
+                       profissao = input("Qual a sua profissao? ")
                        print("Usuario cadastrado com sucesso. ")
                elif opcao == 2:
                        if usuario == "" and idade == 0 and email == "" and cidade == "" and profissao == "":
